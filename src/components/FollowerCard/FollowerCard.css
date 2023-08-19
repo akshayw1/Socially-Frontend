@@ -1,0 +1,104 @@
+
+.FollowersCard{
+    width: 90%;
+    border-radius: 0.7rem;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+    background-color: white;
+    height: fit-content;
+    
+    padding: 1rem;
+}
+
+.follower{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.2rem;
+   
+    border-radius: 1rem;
+}
+
+.follower>div{
+    display: flex;
+    gap: 10px;
+}
+
+
+.followerImage{
+    width: 3.2rem;
+    height: 3.2rem;
+    border-radius: 50%;
+}
+
+.name{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.name>span:nth-of-type(1){
+    font-weight: bold;
+}
+
+
+.fc-button{
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    background: rgb(70,27,155);
+background: linear-gradient(41deg, rgba(70,27,155,1) 31%, rgba(133,71,255,1) 73%);
+    color: white;
+    border-radius: 0.5rem;
+    height: 2rem;
+}
+
+
+.FollowersCard>h3{
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.Fsearchbar {
+    width: 100%;
+    height:40px;
+    background-color: #F2F5F7;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .searchIcon {
+    font-size: 20px !important;
+    margin-left: 10px;
+  }
+  
+  .FsearchInput {
+    border: none;
+    width: 70%;
+    font-size: 0.9rem;
+    background-color: #F2F5F7;
+    margin-left: 1rem;
+    outline: none;
+    
+  }
+  
+  .searchInput:focus {
+    outline: none;
+  }
+  
+
+  @media screen and (max-width:600px) {
+    
+  }
+
+
+
+

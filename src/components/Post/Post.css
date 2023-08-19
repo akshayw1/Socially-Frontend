@@ -1,0 +1,274 @@
+.Post
+{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: var(--cardColor);
+    border-radius: 1rem;
+    gap: 1rem;
+}
+
+.Post>img{
+    width: 100%;
+    height: 30rem;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+
+.postReact{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
+    font-size: 1.5rem;
+}
+
+.PprofileDp{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+.userinfo{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    font-size: 16px;
+}
+
+.userinfo .Pusername{
+    font-size: 20px;
+    padding: 0.3rem;
+    font-weight: 700;
+}
+
+.userinfo .Pusercity{
+    padding: 0.3rem;
+   
+}
+.Posttopprofile{
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+
+.threedotIcon{
+    height: 50px;
+    width: 50px;
+    background-color: #F2F5F7;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    display: flex;
+    font-size: 20px;
+    align-self: right;
+}
+
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.PostleftIcons{
+    display: flex;
+    gap: 1rem;
+}
+
+.nameBold{
+    color: black;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.liked{
+    color: #8547FF;
+    
+   
+    
+    stroke-width: 5rem;
+}
+
+.CommentSection{
+   
+   
+    background-color: #F2F5F7;
+    border-radius: 1rem;
+}
+
+ 
+.Csearchbar {
+    width: 100%;
+    height:40px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  .CommentIcon{
+    margin-right: 1rem;
+  }
+  
+  .searchIcon {
+    font-size: 20px !important;
+    margin-left: 10px;
+  }
+  
+  .CsearchInput {
+    border: none;
+    outline-style: none;
+    font-size: 0.9rem;
+    background-color: transparent;
+    margin-left: 1rem;
+    width: 100%;
+  }
+  
+  .searchInput:focus {
+    outline: none;
+  }
+
+  .AccountProfilePic img{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+  }
+
+  .AccountProfilePic{
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5rem;
+    align-items: center;
+    gap: 1rem ;
+  }
+
+
+  .ViewComment{
+    margin: 1rem;
+    display: flex;
+    line-height: 0.1rem;
+    align-items: flex-start;
+    border-bottom: 1px solid #eee9e9;
+    
+   
+  }
+  .CommentProfilePic img{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+
+  }
+
+  .Comment{
+    margin-left: 1rem;
+    line-height: 1.5rem;
+    display: flex;
+    font-size:1rem;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .Comment>.CommentUserName>span{
+    font-size: 0.8rem;
+    padding: 0.8rem;
+    color: #7a7b7b;
+  }
+
+  .CommentUserName{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: large;
+    font-weight: 700;
+    width: 100%;
+  }
+
+  .LikedBy{
+    color: gray;
+    font-size: 13px;
+  }
+  .DelPost{
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+  }
+    
+  @media screen and (max-width: 600px) {
+    .userinfo{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    font-size: 16px;
+}
+.userinfo .Pusername{
+  font-size: 15px;
+  padding: 0.3rem;
+  font-weight: 700;
+}
+.userinfo .Pusercity{
+  padding: 0.3rem;
+  font-size: 0.8rem;
+ 
+}
+
+.PprofileDp{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+.detail{
+  font-size: 0.8rem;
+}
+.LikedBy{
+  font-size: 10px;
+}
+.Post{
+  gap:0.5rem
+}
+.threedotIcon{
+  height: 40px;
+  width: 40px;
+
+}
+
+.AccountProfilePic img{
+  height: 22px;
+  width: 22px;
+
+}
+.Csearchbar {
+  width: 100%;
+  height:22px;
+ 
+  
+}
+ 
+.CsearchInput {
+  border: none;
+  outline-style: none;
+  font-size: 0.7rem;
+  margin-left: 1rem;
+  width: 100%;
+}
+.nameBold{
+  color: black;
+  font-size: 12px;
+  font-weight: 700;
+}
+.postReact{
+  font-size: 1.2rem;
+}
+.Post>img{
+  
+  height: 20rem;
+ 
+}
+
+
+  }
+  

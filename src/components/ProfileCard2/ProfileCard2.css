@@ -1,0 +1,158 @@
+.ProfileWrapper {
+  padding: 1rem;
+  margin-top: 1rem;
+
+  border-radius: 1rem;
+  background-color: rgb(255, 255, 255);
+}
+
+.ProfileCover img {
+  height: 15rem;
+  width: 100%;
+  border-radius: 1rem;
+    object-fit: cover;
+  background-size: cover;
+}
+.ProfileCoverBottom {
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.ProfileCoverDP {
+  height: 100px;
+  width: 100px;
+  border-radius: 1rem;
+  margin: 0.9rem;
+  margin-left: 0;
+  background-color: aqua;
+}
+
+.ProfileCoverDP img {
+  height: 100%;
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.sept {
+  display: flex;
+}
+
+.UserName {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 1rem;
+  align-items: center;
+}
+
+.ProfileInfo {
+  font-size: 1rem;
+  display: flex;
+  color: #7b878f;
+  gap: 1rem;
+}
+
+.EditProfileBtn {
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 15px;
+  outline: none;
+  border: none;
+  background: rgb(70, 27, 155);
+  background: linear-gradient(
+    41deg,
+    rgba(70, 27, 155, 1) 31%,
+    rgba(133, 71, 255, 1) 73%
+  );
+  color: white;
+  border-radius: 0.5rem;
+  height: 2.5rem;
+  margin: 1rem;
+ width:fit-content;
+}
+
+.ProfileActions {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+.ProfileActions > span {
+  height: 15px;
+  width: 10%;
+  margin: 1rem;
+  border-radius: 1rem;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  display: flex;
+  background-color: #f2f5f7;
+  padding: 1rem;
+}
+
+hr {
+  height: 1px;
+  background-color: #f2f5f7;
+  border: none;
+}
+
+.ProfileMenu {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.Profilesubmenu {
+  padding: 0.5rem;
+  border-right: 2px solid #f2f5f7;
+  font-size: 1.1rem;
+  color: #7b878f;
+}
+
+.Profilesubmenu:hover {
+  color: #8547ff;
+}
+
+.activeTab {
+  color: #8547ff;
+}
+
+
+  
+@media screen and (max-width: 600px) {
+
+  .ProfileCoverDP{
+    height: 60px;
+    width: 60px;
+  }
+  .UserName{
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: 1rem;
+  }
+  .ProfileInfo{
+    flex-direction: column;
+    font-weight: 700;
+  }
+  /* .ProfileMenu {
+    
+  } */
+
+  .ProfileActions{
+  }
+  .ProfileInfo{
+    gap: 0;
+    margin-left: 0;
+    justify-content: center ;
+    align-items: baseline;
+
+  }
+  .ProfileCoverBottom{
+    flex-direction: column;
+  }
+
+  .UserName>span{
+    display: flex;
+  }
+}

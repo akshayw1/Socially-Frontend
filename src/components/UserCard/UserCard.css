@@ -1,0 +1,87 @@
+.UserCardWrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: #ece6f3;
+  
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.UserCover {
+  background: rgb(70, 27, 155);
+  background: linear-gradient(
+    41deg,
+    rgba(70, 27, 155, 1) 31%,
+    rgba(133, 71, 255, 1) 73%
+  );
+  color: white;
+  height: 6rem;
+  padding: 0;
+  top: 0;
+}
+.userDp{
+  height: 6rem;
+  width: 6rem;
+  background-color: rgb(34, 1, 1);
+  align-self: center;
+  border-radius: 50%;
+  position: absolute;
+  margin-top: 2rem;
+  border: 0.4rem solid #fff;
+}
+
+.userDp img{
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+
+}
+
+.UserData {
+  display: flex;
+  margin-top: 3rem;
+  justify-content: center;
+  flex-direction: column;
+  align-self: center;
+  align-items: center;
+  line-height: 0.5rem;
+}
+
+.UserData h3 {
+  font-size: 1.4rem;
+}
+
+.FollowBtn {
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 15px;
+  outline: none;
+  border: none;
+  background: rgb(70, 27, 155);
+  background: linear-gradient(
+    41deg,
+    rgba(70, 27, 155, 1) 31%,
+    rgba(133, 71, 255, 1) 73%
+  );
+  color: white;
+  border-radius: 0.5rem;
+  height: 2rem;
+  margin: 1rem;
+}
+
+.FollowToggle{
+  color: rgb(0, 0, 0);;
+  font-weight: 700;
+  background: rgb(208, 181, 237);
+  
+  
+}
+
+.UserCover img{
+  height: 100%;
+  width: 100%;
+
+}
+
+

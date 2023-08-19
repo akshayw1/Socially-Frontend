@@ -1,0 +1,41 @@
+.AboutWrapper{
+  
+    width: 100%;
+    height: fit-content;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 1rem;
+    border-radius: 1rem;
+   
+}
+
+.EditBioBtn{
+    width: 100%;
+    height: 2.5rem;
+    background-color:#F2F5F7;
+    outline: none;
+    border: none;
+    border-radius: 1rem;
+    padding: 1rem;
+   
+    font-size: 1rem;
+    color: #999595;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.AboutInfoList{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding:0;
+    gap: 1.3rem;
+
+}
+
+.AboutHead p{
+    color: #737070;
+    line-height: 1.5rem;
+}

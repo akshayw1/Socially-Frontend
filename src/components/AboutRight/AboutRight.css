@@ -1,0 +1,27 @@
+.Aboutsidebar {
+    flex: 3;
+    height: calc(100vh - 50px);
+    overflow-y: scroll;
+    position: sticky;
+    top: 50px;
+    z-index:999;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+  ::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: rgb(179, 179, 179);
+  }
+
+  .sidebarWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    
+  }
+  
+  

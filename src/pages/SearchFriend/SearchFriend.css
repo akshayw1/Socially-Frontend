@@ -1,0 +1,32 @@
+.SearchWrapper{
+    position: relative;
+   width: 88%;
+    
+   display: grid;
+   grid-template-columns: 20rem 70rem;
+   gap: 1rem;
+
+}
+.SidebarSearch{
+    margin-top: 1rem;
+   
+    align-self: flex-start;
+}
+
+@media screen and (max-width: 600px) {
+    .SearchWrapper{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    
+    .SidebarSearch{
+        margin-top: 1rem;
+       display: contents;
+        align-self: flex-start;
+
+    }
+    
+    
+}
+

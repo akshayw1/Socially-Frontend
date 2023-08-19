@@ -1,0 +1,81 @@
+.selfwrapper{
+    
+    
+    background-color:#ffffff;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.topprofile{
+    display:flex;
+    align-items: top;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.profileDp{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+.userinfo{
+    display: flex;
+    flex-direction: column;
+    padding: 0.3rem;
+    font-size: 16px;
+}
+
+.userinfo .username{
+    font-size: 20px;
+    
+    
+    font-weight: 700;
+}
+
+.userinfo .socially-username{
+   font-size: 12px;
+   
+}
+
+.username{
+    display: flex;
+    align-items: center;
+}
+
+.verfiedIcon{
+    font-size: 1.5rem;
+    color: rgb(7, 145, 204);
+}
+
+.userFollowerInfo{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 1rem;
+    font-size: 1rem;
+    gap: 1rem;
+    
+
+}
+
+.mainProf{
+    display: flex;
+}
+
+.profcount{
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .selfwrapper{
+        display: none;
+    }
+}

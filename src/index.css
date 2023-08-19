@@ -1,0 +1,198 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f2f5f7;
+}
+
+.dark {
+  background-color: #1a2236;
+}
+.dark .blur{
+  display: none;
+}
+
+.dark .SideNavWarpper {
+  background-color: #1a2236;
+  color: white;
+}
+
+.dark .Post {
+  background-color: #293145;
+}
+
+.dark .postReact {
+  color: #f2f5f7;
+}
+
+.dark .userinfo {
+  color: #f2f5f7;
+}
+.dark .detail {
+  color: #f2f5f7;
+}
+.dark .nameBold {
+  color: #e0d6d6;
+}
+
+.dark .LikedBy {
+  color: #e0d6d6;
+}
+.dark .CommentSection {
+  background-color: #1a2236;
+}
+.dark .Csearchbar {
+  background-color: #12182a;
+  color: #f2f5f7;
+}
+.dark .Csearchbar input {
+  color: #f2f5f7;
+}
+
+.dark .selfwrapper{
+  
+  color: #f2f5f7;
+  background: rgba( 255, 255, 255, 0 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 0px );
+  -webkit-backdrop-filter: blur( 0px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.dark .PostShare{
+  color: #293145;
+  background:#293145;
+}
+
+.dark .PostTextarea{
+  background-color: #1a2236;
+  color: #e0d6d6;
+}
+
+.dark .FollowersCard{
+  background-color: #12182a;
+  color: white;
+}
+
+.dark .FollowersCard .Fsearchbar{
+  background-color: #1a2236;
+  color: white;
+}
+
+.dark .FollowersCard .Fsearchbar input{
+  color: white;
+  background-color: transparent;
+}
+
+.dark .topbarContainer{
+  background-color: #293145;
+}
+
+.dark .topbarContainer input{
+  background-color: transparent;
+  color: #f2f5f7;
+}
+
+.dark .searchbar{
+  background-color: #1a2236;
+  color: #e0d6d6;
+}
+
+.dark .topbarIconItem{
+  background-color: #1a2236;
+}
+.dark .topbarIconItemnnohide{
+  background-color: #1a2236;
+  color: #e0d6d6;
+}
+
+.dark .Comment {
+  background: #293145;
+  border-radius: 1rem;
+  color: #f2f5f7;
+  padding: 1rem;
+  box-sizing: border-box    ;
+  border: none;
+}
+
+.dark .ViewComment{
+  border: none;
+}
+
+.dark .SeacrhTopbar{
+  background-color: #12182a;
+  color: #f2f5f7;
+
+} 
+
+.dark .SeacrhTopbar input{
+  background-color: transparent;
+  color: #f2f5f7;
+}
+
+.dark .Usearchbar{
+  background-color: #1a2236;
+  
+}
+.dark .FriendCards{
+  background-color: #12182a;
+}
+
+.dark .UserCardWrapper{
+  background-color: #1a2236; 
+  color: #f2f5f7;
+}
+
+.dark .ProfileWrapper{
+  background-color: #12182a;
+  color: #f2f5f7;
+}
+.dark .ProfileActions > span{
+  background-color: #293145;
+}
+
+.dark hr    
+{
+  background-color: #1a2236;
+}
+
+.dark .Profilesubmenu{
+  border: 2px solid #1a2236;
+  border-radius: 1rem;
+}
+
+.dark .AboutWrapper{
+  background-color: #293145;
+  color: #f2f5f7;
+}
+.dark .AboutHead p{
+  color: #f2f5f7;
+}
+.dark .EditBioBtn{
+  color: #12182a;
+}
+.dark .ExploreWrapper{
+  background-color: #293145;
+  color: #f2f5f7;
+}
+
+.dark .tags b{
+  color: #e0d6d6;
+}
+
+.dark .ProfileCardOther{
+  background-color: #1a2236;
+}
+
+a {
+  text-decoration: none;
+  color:inherit;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

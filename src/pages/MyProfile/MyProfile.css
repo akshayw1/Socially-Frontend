@@ -1,0 +1,23 @@
+.MSearchWrapper{
+    position: relative;
+   width: 88%;
+    
+   display: grid;
+   grid-template-columns: 20rem 70rem;
+   gap: 1rem;
+
+}
+.MSidebarSearch{
+    margin-top: 1rem;
+   
+    align-self: flex-start;
+}
+
+@media screen and (max-width: 600px) {
+    .MSearchWrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+

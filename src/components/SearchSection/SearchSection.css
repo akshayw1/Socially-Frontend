@@ -1,0 +1,88 @@
+.SearchSectionWrapper{
+  
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0);
+    margin-top: 1rem;
+    height: calc(100vh - 50px);
+    overflow-y: scroll;
+    position: sticky;
+    top: 50px;
+    z-index:999;
+    
+}
+
+.SeacrhTopbar{
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    border-radius: 1rem;
+    z-index:999;
+}
+
+.FriendCards{
+    
+    padding: 1rem;
+    background-color: rgb(255, 255, 255);
+    margin-top:1rem ;
+    border-radius: 1rem;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1rem;
+}
+
+.Usearchbar {
+    width: 40%;
+    height:20px;
+    background-color: #F2F5F7;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .searchIcon {
+    font-size: 25px !important;
+    margin-left: 10px;
+    color: blueviolet;
+  }
+  
+  .UsearchInput {
+    border: none;
+    width: 70%;
+    font-size: 0.9rem;
+    background-color: #F2F5F7;
+    margin-left: 1rem;
+  }
+  
+  .UsearchInput:focus {
+    outline: none;
+  }
+
+  
+@media screen and (max-width: 600px) {
+  .FriendCards{
+    
+    padding: 1rem;
+    background-color: rgb(255, 255, 255);
+    margin-top:1rem ;
+    border-radius: 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+.SearchSectionWrapper{
+  width: 100%;
+}
+.Usearchbar 
+{
+  width: 95%;
+}
+.SeacrhTopbar{
+  flex-direction: column;
+}
+
+  
+}

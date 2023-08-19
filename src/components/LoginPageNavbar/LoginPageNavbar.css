@@ -1,0 +1,55 @@
+.LoginNavbar{
+    height: 80px;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    color: black;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    position: absolute;
+    z-index: 999;
+    justify-content: space-between;
+
+}
+
+.Logo {
+    font-size: 24px;
+    margin-left: 20px;
+    font-weight:700;
+    color: #8547FF;
+    cursor: pointer;
+  }
+
+
+.ActionBtn{
+    display: flex;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.AuthAction{
+    border: none;
+    outline: none;
+    height: 2.5rem;
+    padding: 1rem;
+    font-size: 1.1rem;
+    color: #fff;
+    background: rgb(70,27,155);
+    background: linear-gradient(41deg, rgba(70,27,155,1) 31%, rgba(133,71,255,1) 73%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:50px;
+}
+  
+
+.black{
+    background: #292929;
+}
+
+.violet{
+    background: #8547FF;
+}

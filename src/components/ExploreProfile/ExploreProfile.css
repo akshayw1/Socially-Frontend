@@ -1,0 +1,58 @@
+.ExploreWrapper {
+ 
+  width: 100%;
+  
+  background-color: white;
+  box-sizing: border-box;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.row {
+  
+ 
+    margin-top: 0.5rem;
+  display: grid;
+  grid-template-columns:1fr 1fr;
+  gap: 0.5rem;
+  background-size: cover;
+  
+}
+
+
+.explore-img{
+    height:8rem;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    background-size: cover;
+    
+}
+
+.ExploreBtn{
+    border: none;
+    outline: none;
+    background-color:#F2F5F7;
+    height: 2.5rem;
+    font-weight: 700;
+    color: rgb(125, 125, 125);
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    cursor: pointer;
+
+
+}
+
+.tags{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+
+.tags b{
+    color:#461b9b ;
+}

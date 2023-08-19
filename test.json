@@ -1,0 +1,66 @@
+{
+    "results": [
+        {
+            "gender": "female",
+            "name": {
+                "title": "Miss",
+                "first": "Olivia",
+                "last": "Cooper"
+            },
+            "location": {
+                "street": {
+                    "number": 2239,
+                    "name": "Market Street"
+                },
+                "city": "Palmerston North",
+                "state": "Bay of Plenty",
+                "country": "New Zealand",
+                "postcode": 53178,
+                "coordinates": {
+                    "latitude": "50.8280",
+                    "longitude": "46.7052"
+                },
+                "timezone": {
+                    "offset": "-4:00",
+                    "description": "Atlantic Time (Canada), Caracas, La Paz"
+                }
+            },
+            "email": "olivia.cooper@example.com",
+            "login": {
+                "uuid": "c1143891-7acd-484e-b15f-d81d9ae14d94",
+                "username": "yellowsnake591",
+                "password": "february",
+                "salt": "NU2Hs68g",
+                "md5": "7d33156b08ef859fee1d0f02810607a8",
+                "sha1": "9aad97fb8977f4e9bafb96acc8e538d81c1a41e8",
+                "sha256": "982554f9442a69387fc645dd6be04c555c17628879d0660239b3e3a81d0f0334"
+            },
+            "dob": {
+                "date": "1951-01-20T09:25:30.401Z",
+                "age": 72
+            },
+            "registered": {
+                "date": "2018-09-30T08:52:55.854Z",
+                "age": 4
+            },
+            "phone": "(690)-285-3729",
+            "cell": "(649)-001-5897",
+            "id": {
+                "name": "",
+                "value": null
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/women/57.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/women/57.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/women/57.jpg"
+            },
+            "nat": "NZ"
+        }
+    ],
+    "info": {
+        "seed": "f57e10fb8de07014",
+        "results": 1,
+        "page": 1,
+        "version": "1.4"
+    }
+}

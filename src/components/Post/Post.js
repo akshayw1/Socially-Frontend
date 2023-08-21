@@ -10,6 +10,7 @@ import ProfileImage from "../../assets/person/1.jpeg";
 import Popover from '@mui/material/Popover';
 import Typography from '@mui/material/Typography';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
+import {Link} from 'react-router-dom'
 
 
 // import Comment from '../../img/comment.png'
@@ -17,8 +18,9 @@ import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 // import Heart from '../../img/like.png'
 // import NotLike from '../../img/notlike.png'
 
-const Post = ({ data,frienddata }) => {
+const Post = ({ data}) => {
   const [anchorEl, setAnchorEl] = React.useState(null);
+
 
   const handleClick = (event) => {
     setAnchorEl(event.currentTarget);
@@ -85,10 +87,12 @@ const Post = ({ data,frienddata }) => {
     </div>
       <div className="Posttopprofile">
         <div className="left">
-          <img src={data.ProfilePic} className="PprofileDp" alt="" />
+        <Link to={`/profile/${data.name}`}>
+            <img src={data.ProfilePic} className="PprofileDp" alt="" />
+          </Link>
           <div className="userinfo">
             <span className="Pusername"> {data.name}</span>
-            <span className="Pusercity"> Newyork, India</span>
+            <span className="Pusercity">{data.location}</span>
           </div>
         </div>
 

@@ -1,32 +1,32 @@
 import React from "react";
-// import Cover from "../../assets/person/1.jpeg";
-// import Profile from "../../assets/person/1.jpeg";
+
 import "./ProfileCard.css";
 
-const ProfileCard = ({name,userid,profileDp,profileCover}) => {
+const ProfileCard = ({name,userid,profileDp,profileCover,follower,following,bio="Not Available"}) => {
   const ProfilePage = true;
   return (
     <div className="ProfileCard">
       <div className="ProfileImages">
-        <img src={profileDp} alt="" />
         <img src={profileCover} alt="" />
+        <img src={profileDp} alt="" />
       </div>
 
       <div className="ProfileName">
         <span>{name}</span>
         <span>{userid}</span>
+        <span>{bio}</span>
       </div>
 
       <div className="followStatus">
         <hr />
         <div>
           <div className="follow">
-            <span>430</span>
+            <span>{following}</span>
             <span>Followings</span>
           </div>
           <div className="vl"></div>
           <div className="follow">
-            <span>100</span>
+            <span>{follower}</span>
             <span>Followers</span>
           </div>
 

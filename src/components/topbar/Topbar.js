@@ -61,7 +61,7 @@ useEffect(() => {
       <Typography sx={{ p: 2 }} className="aaaa"><>
       < button className="DelPost"><Link to ="/profile"> Home </Link></button> < button className="DelPost"><Link to ="/viewprofile"> View Profile</Link></button>
       <button className="DelPost"><Link to = "/search">Search Friend </Link></button>
-      <button className="DelPost"><Link to = "/"> Logout</Link> </button>   </>
+      <button className="DelPost"><Link to = "/login"> Logout</Link> </button>   </>
       </Typography>
     </Popover>
   </div>

@@ -68,3 +68,20 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Features Implemented
+
+1. Responsive frontend for a "Social Media Website" namd 'Socially' with React JS Framework.
+2.  Display a dynamic feed brimming with captivating posts, photos, or intriguing updates by Unsplash API (Route Website: /profile, Posts Sections)
+3. Implement an agile search feature, empowering users to embark on journeys to find fellow users, Search Section Implmeneted ( Website Route: /profile/searchprofile)
+4. Craft intricate user profile pages, providing a gateway to explore the captivating lives of others,On Posts section when you clicked User Profile Image, The Profile page with custom route "/profile/username/" Open with th posts of that particular user.
+5. Extending an emotional touch by letting users sprinkle likes or dislikes on specific photos.(Like Dislike Feature with counter)
+6. User engagement by loading 5 posts at a time(On route "/profile" and "/viewprofile"
+7. Connection upon users with the ability to send and receive friend follow request, Implemented in "/profile/searchprofile", When you click follow on the profile card, In search page it toggle "Follow/Unfollow"
+8.  Dialogues by permitting users to compose and post comments on captivating content. ( Comment Feature)
+9. Dark Side of your website. (Dark Mode Implemented)
+10. Navigating from Topbar profile DP, by Popover
+
+Libraries Used: Material UI( Popover /Modals), Chakra UI (Modals,icon), React-Icons (Icons)
+
+
